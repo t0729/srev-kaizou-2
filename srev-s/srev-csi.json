@@ -1,0 +1,10 @@
+{
+    "hosts": [
+    "wss://clouddata.turbowarp.org",
+    "wss://clouddata.turbowarp.xyz"
+    ],
+    "ids": [
+    "kotoho7.github.io/srev",
+    "kotoho7.github.io/srev/2"
+    ]
+}

@@ -1,0 +1,22 @@
+body{
+    font-family: "Kosugi Maru",sans-serif;
+    text-align: center;
+}
+
+.red{
+    font-size: 28px;
+    color: red;
+}
+
+h1{
+    font-size: 35px;
+}
+
+.text{
+    font-size: 25px;
+}
+
+.text-b{
+    font-size: 30px;
+    font-weight: 600;
+}
