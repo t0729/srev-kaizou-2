@@ -1,5 +1,6 @@
 # リアルタイム地震ビューアー改造版  
 リアルタイム地震ビューアーを改造したものです。  
+srev-s.f5.siでの公開を続けるためのリポジトリ
 ## ライセンス  
 [元のプロジェクト](https://github.com/kotoho7/scratch-realtime-earthquake-viewer-page)  
 [元のプロジェクトのライセンス](https://github.com/kotoho7/scratch-realtime-earthquake-viewer-page#クレジット)  
