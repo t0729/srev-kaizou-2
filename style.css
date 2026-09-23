@@ -1,96 +1,152 @@
-body{
-    font-family: "BIZ UDPGothic",sans-serif;
+body {
+    font-family: "BIZ UDPGothic", sans-serif;
     text-align: center;
+    margin: 0;
+    background: #f5f5f5;
+    color: #222;
 }
 
 .container {
     max-width: 800px;
     margin: 0 auto;
+    padding: 40px 20px 60px;
 }
 
+.warning-label {
+    display: inline-block;
+    background: #c40000;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 900;
+    padding: 8px 24px;
+    border-radius: 6px;
+    margin-bottom: 18px;
+}
 
-/* 警告ボックス */
+h1 {
+    font-size: 42px;
+    margin: 0 0 25px;
+    font-weight: 900;
+}
+
 .alert-box {
-    background-color: #fff5f5;
-    border: 1px solid #feb2b2;
-    padding: 15px;
-    border-radius: 10px;
-    margin-bottom: 30px;
+    background: #fff;
+    border: 4px solid #d00000;
+    border-radius: 12px;
+    padding: 24px 20px;
+    margin-bottom: 25px;
 }
 
 .alert-box p {
-    color: #c53030;
-    font-size: 20px;
+    color: #a40000;
+    font-size: 21px;
     font-weight: 700;
-    margin: 5px 0;
+    line-height: 1.7;
+    margin: 8px 0;
 }
 
-h1{
-    font-size: 35px;
-}
-
-
-/* カード */
-.info-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    text-align: left;
-    margin-top: 30px;
-}
-
-.info-card {
-    background-color: #f8f8f8;
-    border: 1px solid #cccccc;
-    padding: 20px;
-    border-radius: 12px;
-}
-
-.info-card h3 {
-    margin-top: 0;
-    font-size: 22px;
-    border-bottom: 2px solid #007bff;
-    display: inline-block;
+.alert-box .alert-title {
+    color: #c00000;
+    font-size: 30px;
+    font-weight: 900;
     margin-bottom: 15px;
 }
 
-.item {
+.move-box {
+    background: #fff;
+    border: 2px solid #0070c9;
+    border-radius: 12px;
+    padding: 25px 20px;
+    margin-bottom: 22px;
+}
+
+.move-title {
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0 0 18px;
+}
+
+.move-button {
     display: block;
-    margin-top: 0;
-    margin-bottom: 8px;
-    font-size: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 18px 20px;
+    background: #0070c9;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 900;
+    transition: transform 0.1s, box-shadow 0.1s;
 }
 
-.link-item {
-    display: block;
-    color: #007bff;
-    margin-bottom: 8px;
+.move-button:hover {
+    background: #005fae;
+}
+
+.move-button:active {
+    transform: translateY(4px);
+    box-shadow: none;
+}
+
+.move-url {
     font-size: 18px;
+    color: #555;
+    margin: 16px 0 0;
+    word-break: break-all;
 }
 
-/* 普通の文字 */
-.text{
-    display: inline-block;
-    font-size: 25px;
-    margin-top: 3px;
+.notice {
+    font-size: 17px;
+    font-weight: 700;
+    color: #555;
+    margin-top: 25px;
 }
 
-/* フッター */
-footer {
-    margin-top: 50px;
-    padding-top: 20px;
-    border-top: 1px solid #e4e4e4;
-    font-size: 18px;
-    color: #000000;
-}
-
-footer a {
-    color: #6583b8;
-}
-
-/* スマホ用 */
 @media (max-width: 600px) {
-    .info-grid {
-        grid-template-columns: 1fr;
+    .container {
+        padding: 25px 12px 40px;
+    }
+
+    .warning-label {
+        font-size: 19px;
+        padding: 7px 18px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .alert-box {
+        padding: 20px 12px;
+    }
+
+    .alert-box .alert-title {
+        font-size: 24px;
+    }
+
+    .alert-box p {
+        font-size: 18px;
+    }
+
+    .move-box {
+        padding: 22px 12px;
+    }
+
+    .move-title {
+        font-size: 21px;
+    }
+
+    .move-button {
+        font-size: 21px;
+        padding: 17px 12px;
+    }
+
+    .move-url {
+        font-size: 16px;
+    }
+
+    .notice {
+        font-size: 15px;
     }
 }
